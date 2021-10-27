@@ -1,11 +1,9 @@
-console.log(process.env);
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCs6ugLetja6b3HYPrxjSi4XiHE5lybPu8",
+  authDomain: "denta-clinic-83602.firebaseapp.com",
+  projectId: "denta-clinic-83602",
+  storageBucket: "denta-clinic-83602.appspot.com",
+  messagingSenderId: "397046152981",
+  appId: "1:397046152981:web:b03a3e6d7ea8c90a0c731c",
 };
-
 export default firebaseConfig;
